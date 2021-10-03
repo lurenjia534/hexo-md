@@ -1,7 +1,10 @@
 ---
 title: Office E5 DEV注意事项
 categories: Office365
-tags: office
+tags:
+    - office365
+    - 微软
+    - 福利&优惠
 ---
 
 ## 什么是Office365 E5 Developer？
