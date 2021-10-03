@@ -6,7 +6,7 @@ tags: office
 
 ## 什么是Office365 E5 Developer？
 
-## 用人话来讲是微软给开发者们提供的一项开发福利
+### 用人话来讲是微软给开发者们提供的一项开发福利
 
 > 前言:本文更新于2021/10/03 随着时间推移此文章内的内容可能会过期或不适用于您所在的时间段
 
@@ -17,7 +17,7 @@ tags: office
 >作为程序成员，您可以获得免费的 Microsoft 365 开发人员订阅，其中 25 个用户许可证可用于构建解决方案。只要您正在积极开发和部署解决方案，此订阅将保持活跃状态。
 <!--more-->
 
-### **权益问题**
+## **权益问题**
 
 Office 365 E3 开发人员订阅包括以下内容：
 
@@ -89,7 +89,7 @@ Office 365 E3 开发人员订阅包括以下内容：
 Office E5 Developer并不包含Azure的优惠
 > 此项优惠不包括 Azure 的订阅。 但是，若要接受免费访问 Azure 服务，您可以 创建一个免费的 Azure 帐户。
 
-### **续期规则**
+## **续期规则**
 
  申请下来的第一期有90天 第二期为121天
  将订阅用于开发可无限制的续期
@@ -104,7 +104,7 @@ Office E5 Developer并不包含Azure的优惠
 
  > 订阅延期的唯一方式是进行有效的开发人员活动。 如果正在使用订阅开发自定义解决方案，订阅将过期并最终被删除。
 
-### 使用限制
+## 使用限制
 
 - 不能用于商用
 - 不能倒卖
@@ -112,7 +112,7 @@ Office E5 Developer并不包含Azure的优惠
 - 不能激活Windows和音频电话
 - 最终解释权归微软所有
 
-### 引用&参考 官方文档列表
+## 引用&参考 官方文档列表
 
 > - [Microsoft 365 开发人员计划常见问题解答](https://docs.microsoft.com/zh-cn/office/developer-program/microsoft-365-developer-program-faq#----microsoft-365-----------------)
 > - [条款和条件](https://docs.microsoft.com/zh-cn/office/developer-program/terms-and-conditions)
