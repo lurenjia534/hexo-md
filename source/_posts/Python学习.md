@@ -6,7 +6,10 @@ tags:
      - 代码
      - 解释性语言
 ---
-## 学习Python记录
+
+# 学习Python记录
+
+## 工具和环境
 
 - 使用工具 [Vscode](https://code.visualstudio.com/)
 
