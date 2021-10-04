@@ -30,13 +30,10 @@ public class HelloWorld {
 ```Java
 package J1; # 项目名
 
-public class HelloWorld  # 包名
-```
+public class HelloWorld # 包名
 
-```Java
 public static void main(String[] args) # 主类
-```
 
-```Java
-System.out.println("Hello World"); # 打印Hello Word
+System.out.println("Hello World"); # 打印输出Hello Word
+
 ```
