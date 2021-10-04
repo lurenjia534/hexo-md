@@ -36,3 +36,25 @@ public static void main(String[] args) # 主类
 
 System.out.println("Hello World"); # 打印输出Hello Word
 ```
+
+## 变量定义与运算
+
+```Java
+package J1;
+
+public class J2 {
+    public static void main(String[] args) {
+        int a=3,b=5,sum;
+        sum=a+b;
+        System.out.println(sum);
+    }
+}
+```
+
+### 解释-变量定义与运算
+
+```Java
+    int a=3,b=5,sum; # 定义整形int变量AB和Sum变量
+
+    sum=a+b; # sum等于A+B
+```
