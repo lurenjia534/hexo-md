@@ -24,7 +24,7 @@ public class HelloWorld {
     }
 }
 ```
-
+<!--more-->
 ### 解释
 
 ```Java
@@ -35,5 +35,4 @@ public class HelloWorld # 包名
 public static void main(String[] args) # 主类
 
 System.out.println("Hello World"); # 打印输出Hello Word
-
 ```
