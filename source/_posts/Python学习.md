@@ -4,7 +4,7 @@ categories: Python
 tags: 
      - Python
      - 代码
-     - 解释性语言
+     - 解释型语言
 ---
 
 ## 工具和环境
