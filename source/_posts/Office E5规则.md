@@ -114,6 +114,8 @@ Office E5 Developer并不包含Azure的优惠
 - 不能倒卖
 - 不能滥用
 - 不能激活Windows和音频电话
+- 不受 [EUDB欧盟](https://edpb.europa.eu/edpb_en) 承诺限制
+- 开发人员Microsoft 365免费订阅仅受条款和条件限制
 - 最终解释权归微软所有
 
 ## 引用&参考 官方文档列表
