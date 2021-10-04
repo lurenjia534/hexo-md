@@ -7,8 +7,6 @@ tags:
      - 解释性语言
 ---
 
-# 学习Python记录
-
 ## 工具和环境
 
 - 使用工具 [Vscode](https://code.visualstudio.com/)
@@ -32,7 +30,7 @@ print ("2 - c 的值为：", c)
  
 c = a * b
 print ("3 - c 的值为：", c)
- 
+
 c = a / b
 print ("4 - c 的值为：", c)
 ```
