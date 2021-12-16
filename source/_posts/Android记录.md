@@ -45,3 +45,11 @@ tags:
 > [Github地址](https://github.com/YTVanced/VancedManager)
 >
 > [官网地址](https://vancedapp.com/)
+
+### [LSPosed框架](https://github.com/LSPosed/LSPosed)
+
+>Android 上目前最棒的XP框架依赖于 [Riru 25 +](https://github.com/RikkaApps/Riru/releases) 和 [Magisk 面具](https://github.com/topjohnwu/Magisk)
+>
+>目前支持:安卓 8.1 ~ 12， 12L 测试版1
+
+### 未完待续
