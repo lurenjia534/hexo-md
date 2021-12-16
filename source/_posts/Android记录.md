@@ -13,7 +13,7 @@ tags:
 
 > Android的神器
 >
-> Magisk是一套开放源代码的Android（5.0以上版本）自定义工具套组，内置了Magisk Manager（图形化管理界面）、Root、启动脚本、SElinux补丁和启动时认证/dm-verity/强制加密移除功能。Magisk同时提供了在无需修改系统文件的情况下更改/system或/vendor分区内容的接口，利用与Xposed类似的模块系统，开发者可以对系统进行修改或对所安装的软件功能进行修改等。<!--more-->
+> Magisk是一套开放源代码的Android（5.0以上版本）自定义工具套组，内置了Magisk Manager（图形化管理界面）、Root、启动脚本、SElinux补丁和启动时认证/dm-verity/强制加密移除功能。Magisk同时提供了在无需修改系统文件的情况下更改/system或/vendor分区内容的接口，利用与Xposed类似的模块<!--more-->系统，开发者可以对系统进行修改或对所安装的软件功能进行修改等。
 >
 >除此之外，Magisk可以对其他验证系统完整性的应用程序进行隐藏（称为Magisk Hide），使得用户可在获取Root权限的情况下使用如向导宝可梦GO[1]、Fate/Grand Order[2]一类的应用程序或开启支付宝、微信的指纹支付功能[3]。
 >
@@ -67,3 +67,11 @@ tags:
 > [Github地址](https://github.com/Dr-TSNG/Hide-My-Applist)
 >
 > [TG群](https://t.me/HideMyApplist)
+
+### [VipER4Android Fx](https://github.com/vipersaudio/viper4android_fx)
+
+> 依赖于 [Magisk 面具](https://github.com/topjohnwu/Magisk)
+>
+> Android大名鼎鼎的音效软件，使用他来让你的耳朵怀孕吧
+>
+>[Github地址](https://github.com/vipersaudio/viper4android_fx)
