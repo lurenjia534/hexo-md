@@ -7,7 +7,7 @@ tags:
     - 编译
 ---
 
-## 针对于 Redmi K40/Poco F3/Mi 11x的编译
+## 记录一次针对于 Redmi K40/Poco F3/Mi 11x的编译
 
 ### 1.准备阶段
 
@@ -20,7 +20,7 @@ tags:
 >全局且质量极高的科学上网
 >
 >至少不低于四核心的主流CPU
-
+<!--more-->
 ### 2.源码拉取阶段
 
  更新源
@@ -72,6 +72,34 @@ tags:
     source build/envsetup.sh # 执行编译脚本
     lunch aosp_$device-userdebug # 拉取设备依赖 $ 一般指你的设备型号
 
+以Redmi K40/Poco F3/Mi 11x为例子
+
+    ============================================
+    PLATFORM_VERSION_CODENAME=REL
+    PLATFORM_VERSION=12 # 构建 Android 版本
+    CUSTOM_VERSION=PixelExperience_Plus_alioth-12.1-20220327-1405-UNOFFICIAL # 自定义构建版本 
+    TARGET_PRODUCT=aosp_alioth # 构建设备的代号
+    TARGET_BUILD_VARIANT=userdebug # 用户调试
+    TARGET_BUILD_TYPE=release # 发布版本
+    TARGET_ARCH=arm64
+    TARGET_ARCH_VARIANT=armv8-a
+    TARGET_CPU_VARIANT=generic
+    TARGET_2ND_ARCH=arm
+    TARGET_2ND_ARCH_VARIANT=armv8-a  
+    TARGET_2ND_CPU_VARIANT=generic 
+    HOST_ARCH=x86_64 
+    HOST_2ND_ARCH=x86
+    HOST_OS=linux
+    HOST_OS_EXTRA=Linux-5.13.0-1017-azure-x86_64-Ubuntu-20.04.4-LTS # 构建此 Android 所用系统
+    HOST_CROSS_OS=windows
+    HOST_CROSS_ARCH=x86
+    HOST_CROSS_2ND_ARCH=x86_64
+    HOST_BUILD_TYPE=release
+    BUILD_ID=SP2A.220305.013.A3 # Android Build号
+    OUT_DIR=out # 输出目录
+    PRODUCT_SOONG_NAMESPACES=hardware/google/interfaces hardware/google/pixel device/xiaomi/sm8250-common hardware/xiaomi hardware/qcom-caf/wlan vendor/qcom/opensource/usb/etc vendor/xiaomi/sm8250-common device/xiaomi/alioth vendor/xiaomi/alioth hardware/qcom-caf/sm8250 vendor/qcom/opensource/commonsys/display vendor/qcom/opensource/commonsys-intf/display vendor/qcom/opensource/display vendor/qcom/opensource/data-ipa-cfg-mgr vendor/qcom/opensource/dataservices packages/apps/Bluetooth hardware/nxp hardware/qcom-caf/common/fwk-detect
+    ============================================
+
 ### 3.编译阶段
 
 构建开始
@@ -79,8 +107,21 @@ tags:
     croot # 更改 root 目录
     mka bacon -j$(nproc --all) # 使用make全核编译
 
-### 4.清理阶段
+### 4.构建完成后的ROM位置
+
+跳转到编译文件位置
+
+    cd $OUT
+
+### 5.清理阶段
 
 清理依赖文件与ROM rec包(如果有)
 
     make clean
+
+### 结束与额外补充
+
+参考资料与文献
+>[像素体验WiKi](https://wiki.pixelexperience.org/)
+>
+>[Android Build号](https://source.android.com/setup/start/build-numbers?hl=zh-cn)
