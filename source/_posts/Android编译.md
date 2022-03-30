@@ -7,7 +7,7 @@ tags:
     - 编译
 ---
 
-## 记录一次针对于 Redmi K40/Poco F3/Mi 11x的编译
+### 记录一次针对于 Redmi K40/Poco F3/Mi 11x的编译
 
 ### 1.准备阶段
 
