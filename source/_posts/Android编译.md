@@ -62,10 +62,6 @@ tags:
 
     repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
-更新源码
-
-    repo sync
-
 切换到源码目录
 
     cd ~/android/pe # 切换源码目录
@@ -119,7 +115,23 @@ tags:
 
     make clean
 
-### 结束与额外补充
+## 结束与额外补充
+
+### 更新源码与二次编译
+
+    repo sync # 此命令会检查源码更新与设备树更新
+
+切换到**源码**目录后
+
+    source build/envsetup.sh
+构建
+
+    croot # 更改 root 目录
+    mka bacon -j$(nproc --all) # 使用make全核编译
+
+清理缓存
+
+    make clean
 
 参考资料与文献
 >[像素体验WiKi](https://wiki.pixelexperience.org/)
