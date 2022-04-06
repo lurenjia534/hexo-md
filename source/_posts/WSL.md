@@ -98,6 +98,16 @@ tags:
     code .
 此时会调起 Visual Studio Code 并链接你的 Ubuntu20.04LTS
 
+### 解决关于WSL的网络问题
+
+打开 Clash 或 V2rayNg 的 允许局域网选项与Http代理(Clash无需选择此项)
+
+查看 Windows 10 任务管理器的网络界面会找到一个由Hy虚拟的网络,查看他的IPV4 地址
+
+在Wsl/Visual Studio Code的终端输入
+
+    export ALL_PROXY="http://Hy虚拟网络:代理端口"
+此时此代理在本终端生效
 ### 参考资料与文献
 
 >[Microsoft WSL文档](https://docs.microsoft.com/zh-cn/windows/wsl/about)
