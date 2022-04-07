@@ -108,6 +108,8 @@ tags:
 
     export ALL_PROXY="http://Hy虚拟网络:代理端口"
 此时此代理在本终端生效
+
 ### 参考资料与文献
 
 >[Microsoft WSL文档](https://docs.microsoft.com/zh-cn/windows/wsl/about)
+nvm
