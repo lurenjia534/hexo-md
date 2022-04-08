@@ -109,7 +109,24 @@ tags:
     export ALL_PROXY="http://Hy虚拟网络:代理端口"
 此时此代理在本终端生效
 
+### 在 Wsl 上安装nvm并安装Node LTS版本
+
+安装Curl
+
+    sudo apt-get install curl
+关闭 Windows Terminal 并重新打开，验证安装nvm
+
+    command -v nvm 
+使用 nvm 安装 Nodejs 稳定LTS版本
+
+    nvm install --lts
+验证Nodejs版本
+
+    node -v
+验证Npm包管理器版本
+
+    npm -v
+
 ### 参考资料与文献
 
 >[Microsoft WSL文档](https://docs.microsoft.com/zh-cn/windows/wsl/about)
-nvm
