@@ -31,13 +31,25 @@ tags:
 - 使用类似于 Unix 的命令行 shell 调用 Windows 应用程序。
 - 在 Windows 上调用 GNU/Linux 应用程序。
 
-### 安装必要条件
+### Windows 10提供了一键安装命令 如无法一键安装，请参考下面的手动安装命令
+
+手动安装命令
+
+    wsl --install
+然后重启并更新内核
+
+    wsl --update
+调整默认的非稳定Ubuntu为稳定20.04LTS版本
+
+    wsl --install -d Ubuntu-20.04
+
+### 手动安装必要条件
 
 - 必须运行 Windows 10 版本 2004 及更高版本（内部版本 19041 及更高版本）或 Windows 11
 - Windows 控制面板 - 程序和功能 - 启用或关闭Windows功能 - 适用于Linux的Windows子系统
 - Windows 控制面板 - 程序和功能 - 启用或关闭Windows功能 - Hyper-V
 
-### 安装流程
+### 手动安装流程
 
 首先,列出所有的可安装Linux发行版
 
@@ -85,7 +97,7 @@ tags:
 下载更新完毕以后会要去关闭WSL
 
     wsl --shutdown
-到此为止,安装流程结束
+到此为止,手动安装流程结束
 
 ### 在 Visual Studio Code 使用 WSL2进行开发
 
