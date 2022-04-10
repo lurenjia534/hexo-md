@@ -14,7 +14,7 @@ tags:
 ### Adb常用命令
 
 查看USB调试打开下的Adb链接设备
-
+<!--more-->
     adb devices
 重启系统或重启到Rec和Fastboot
 
