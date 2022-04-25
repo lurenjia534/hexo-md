@@ -129,7 +129,7 @@ Ubuntu子系统可以使用命令查看DNS 地址来获取宿主机的IP 从而�
 安装Curl
 
     sudo apt-get install curl
-关闭 Windows Terminal 并重新打开，验证安装nvm
+关闭 Windows Terminal 并重新打开，验证安装 nvm
 
     command -v nvm 
 使用 nvm 安装 Nodejs 稳定LTS版本
