@@ -17,7 +17,7 @@ tags:
 
     wsl --shutdown
 列出已安装的Linux发行版
-
+<!--more-->
     wsl --list
 列出所有的可装Linux 列表
 
