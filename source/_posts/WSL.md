@@ -1,10 +1,10 @@
 ---
 title: Windows 10 配置 WSL
-categories: Windows
+categories: WSL
 tags:
     - Windwos
     - Linux
-    - 开发
+    - WSL
 ---
 
 ### 什么是 WSL1?
@@ -33,7 +33,7 @@ tags:
 
 ### Windows 10提供了一键安装命令 如无法一键安装，请参考下面的手动安装命令
 
-手动安装命令
+自动安装命令
 
     wsl --install
 然后重启并更新内核
